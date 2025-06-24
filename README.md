@@ -39,8 +39,7 @@ This is my personal portfolio website showcasing who I am, the projects I’ve b
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cesarolvr/cesarolvr-www.git
-   cd cesarolvr-www
+   git clone https://github.com/Nitish-d-Great/Portfolio-Website.git
    ```
 
 2. Install dependencies:
@@ -83,4 +82,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-Cesarolvr
+Nitish Gupta
