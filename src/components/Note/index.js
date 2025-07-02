@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="note">
       {/* <p>  </p> */}
-      <p>   <a href="https://github.com/cesarolvr/cesarolvr-www" target="_blank">  </a> </p>
+      <p>   <a href="https://github.com/Nitish-d-Great/Portfolio-Website" target="_blank">  </a> </p>
     </div>
   );
 };
