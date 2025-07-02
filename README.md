@@ -1,4 +1,4 @@
-## My personal website
+## My Personal Profile Website
 
 This is my personal portfolio website showcasing who I am, the projects I've built, skills I've mastered and my journey in the world of Web3, blockchain and software development. It's built to serve as a digital home where you can connect with me, explore my work and learn more about me.
 
