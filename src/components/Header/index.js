@@ -90,7 +90,7 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
               )}
             </Link>
           ) : (
-            <Link to="www.youtube.com/">
+            <Link to="https://nitishgupta10.netlify.app/">
               <ScrambleText
                 text={`<- back`}
                 className="scramble-text sm:text-[18px] text-[14px]"
