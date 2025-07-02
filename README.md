@@ -5,8 +5,8 @@ This is my personal portfolio website showcasing who I am, the projects I've bui
 
 
 
-  <img src="home.png" alt="Home Page Preview" width="400"/>
-
+  <img src="home.png" alt="Home Page Preview - Dark Theme" width="400"/>
+  <img src="home1.png" alt="Home Page Preview - Light Theme" width="400"/>
 
 ## 
 ## 🚀 Features
