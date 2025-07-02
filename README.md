@@ -7,7 +7,7 @@ This is my personal portfolio website showcasing who I am, the projects I've bui
   <img src="home.png" alt="Home Page Preview" width="400"/>
 
 
-
+## 
 ## 🚀 Features
 
 - Modern and responsive design
