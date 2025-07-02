@@ -1,0 +1,252 @@
+.banner-description {
+  line-height: 1.8em;
+  font-size: 14px;
+
+  @media (min-width: 730px) {
+    font-size: 20px;
+  }
+}
+
+.banner-title {
+  font-size: 4rem;
+  line-height: 1;
+  margin-top: -50px;
+  transform: translateX(10);
+
+  @media (min-width: 1368px) {
+    font-size: 5rem;
+    line-height: 0.9;
+    transform: translateX(10);
+  }
+}
+
+.banner-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+  gap: 340px;
+  position: relative;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    gap: 24px;
+    .banner-title, .banner-description {
+      text-align: center;
+    }
+    .avatar-section {
+      margin: 0;
+    }
+  }
+}
+
+.banner-subtitle {
+  margin-bottom: 22px;
+}
+
+.home {
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  main {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: relative;
+  }
+}
+
+.shortcut {
+  justify-content: flex-start;
+}
+
+.home .header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100svw;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  height: 0;
+
+  .header-list {
+    position: relative;
+    z-index: 100;
+  }
+}
+
+.-link-blocked {
+  cursor: not-allowed;
+  a {
+    cursor: not-allowed;
+  }
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+.-button-blocked {
+  cursor: not-allowed !important;
+  opacity: 0.4 !important;
+  text-decoration: line-through;
+
+  &:hover {
+    text-decoration: line-through !important;
+    opacity: 0.4 !important;
+    color: #777777 !important;
+  }
+}
+
+.post {
+  color: var(--tw-text-gray-primary);
+  strong {
+    color: var(--tw-text-gray-primary);
+    font-weight: 500;
+  }
+}
+
+.blog-ticker {
+  margin-top: 2rem;
+  position: fixed;
+  bottom: 5px;
+  z-index: 30;
+  left: 0;
+  display: flex;
+  animation: ticker 30s linear infinite alternate;
+  gap: 5px;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.blog-ticker-wrapper {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 5px;
+  transform: translateY(100%);
+  opacity: 0;
+  animation: slideUp 0.3s ease forwards;
+  animation-delay: 1.5s;
+}
+
+.blog-ticker-item {
+  flex: 0 0 auto;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    transform: translateY(-4px);
+    // border: 1px solid white;
+    font-weight: bold;
+  }
+
+  .emoji {
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+    display: block;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+.blog-ticker-title {
+  position: fixed;
+  bottom: 65px;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.banner-title {
+  text-align: right;
+  font-size: clamp(2rem, 6vw, 5rem);
+  line-height: 1.1;
+  margin-top: 0;
+  min-width: 260px;
+}
+
+.banner-description {
+  text-align: left;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  line-height: 1.8;
+  margin-top: 0;
+  min-width: 320px;
+}
+
+.avatar-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 32px;
+}
+
+.name-mono-bold {
+  font-family: 'Fira Mono', 'Fira Code', Menlo, Consolas, monospace;
+  font-weight: bold;
+  line-height: 1.1;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  letter-spacing: 0.01em;
+}
+
+.hire-me 
+{
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 100;
+  background: none;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.name
+{
+  position: fixed;
+  left: 30px;
+  bottom: 16px;
+  z-index: 100;
+  background: none;
+  font-family: 'Fira Mono', 'Fira Code', Menlo, Consolas, monospace;
+  font-weight: bold;
+  line-height: 1.1;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  letter-spacing: 0.01em;
+}
