@@ -1,0 +1,43 @@
+{
+  "name": "nitish",
+  "version": "1.0.0",
+  "private": true,
+  "description": "nitish",
+ 
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@react-icons/all-files": "^4.1.0",
+    "autoprefixer": "^10.4.17",
+    "classnames": "^2.5.1",
+    "countup.js": "^2.8.0",
+    "gsap": "^3.13.0",
+    "mousetrap": "^1.6.5",
+    "postcss": "^8.4.33",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "sass": "^1.70.0",
+    "tailwindcss": "^3.4.1",
+    "three": "^0.161.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
