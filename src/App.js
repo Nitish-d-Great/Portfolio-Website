@@ -60,7 +60,7 @@ const Home = () => {
                 A{" "}
                 <strong className="text-[var(--tw-text-gray-primary)] font-bold">
                   <ScrambleText
-                    text="Back-end Web3 Engineer"
+                    text="Web3 Engineer"
                     className="scramble-text inline-block"
                     duration={2}
                     placeholder="."
@@ -78,9 +78,9 @@ const Home = () => {
               className="scramble-text"
               duration={2}
             />
-            <a className="underline " href="mailto:nit.nitish02@gmail.com">
+            <a className="underline " href="mailto:work.0xnitish@gmail.com">
               <ScrambleText
-                text={`nit.nitish02@gmail.com`}
+                text={`work.0xnitish@gmail.com`}
                 className="scramble-text"
                 duration={2}
               />
