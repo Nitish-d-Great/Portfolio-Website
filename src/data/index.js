@@ -80,6 +80,12 @@ const volunteeringPath = [
 
 const hackingPath = [
   {
+    role: "StreamFlow",
+    details: `Pay-per-second based video-streaming platform built on Yellow Network | 2025 | 🏆 ETH Online 2025`,
+    description: `-> OpenAI, JavaScript, CSS, HTML, Metamask, Yellow Network`,
+    link: `https://streamflow0.netlify.app/`,
+  },
+  {
     role: "zkCertify",
     details: `ZK based academic record maintenance and recruitment support dApp | 2025 | 🏆 ZK Online Hackathon for Web3 Builders`,
     description: `-> Circom, Solidity, TypeScript, JavaScript, CSS, Vercel`,
