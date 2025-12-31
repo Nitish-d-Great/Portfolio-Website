@@ -81,7 +81,7 @@ const volunteeringPath = [
 const hackingPath = [
   {
     role: "StreamFlow",
-    details: `Pay-per-second based video-streaming platform built on Yellow Network | 2025 | 🏆 ETH Online 2025`,
+    details: `Pay-per-session based video-streaming platform built on Yellow Network | 2025 | 🏆 ETH Online 2025`,
     description: `-> OpenAI, JavaScript, CSS, HTML, Metamask, Yellow Network`,
     link: `https://streamflow0.netlify.app/`,
   },
